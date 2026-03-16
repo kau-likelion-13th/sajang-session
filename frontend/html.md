@@ -59,11 +59,11 @@ HTML 문서는 `<html>`, `<head>`, `<body>` 3가지 주요 부분으로 구성
 - *🚩VSCode 꿀팁*
     - 빈 html 파일에 **`html:5`** 을 입력하고 클릭하면 기본 html 틀이 완성됩니다~!
     
-    ![image.png](img/image2.png)
+    ![image.png](imgs/image2.png)
     
     - 그럼 굳이 외울 필요 없겠죠?? **`<body>`** 태그 사이에 편하게 작업 시작하면 됩니다.
     
-    ![image.png](img/image3.png)
+    ![image.png](imgs/image3.png)
     
 
 ### 2.1 테스트 코드 출력
@@ -106,7 +106,7 @@ HTML 태그는 매우 많아서 굳이 다 외울 필요는 없어요😎
 
 - 결과
     
-    ![image.png](img/image4.png)
+    ![image.png](imgs/image4.png)
     
 
 ### 3.2 단락 태그 (Paragraph)
@@ -117,7 +117,7 @@ HTML 태그는 매우 많아서 굳이 다 외울 필요는 없어요😎
 
 - 결과
     
-    ![image.png](img/image5.png)
+    ![image.png](imgs/image5.png)
     
 
 ### 3.3 <div>태그(기본적인 태그이며, 그룹화할 때 사용)
@@ -136,7 +136,7 @@ HTML 태그는 매우 많아서 굳이 다 외울 필요는 없어요😎
 
 - 결과
     
-    ![image.png](img/image6.png)
+    ![image.png](imgs/image6.png)
     
 
 ### 3.4 줄바꿈 및 수평선
@@ -151,7 +151,7 @@ HTML 태그는 매우 많아서 굳이 다 외울 필요는 없어요😎
 
 - 결과
     
-    ![image.png](img/image7.png)
+    ![image.png](imgs/image7.png)
     
 
 ### 3.5 목록 태그 (List)
@@ -175,7 +175,7 @@ HTML 태그는 매우 많아서 굳이 다 외울 필요는 없어요😎
 
 - 결과
     
-    ![image.png](img/image8.png)
+    ![image.png](imgs/image8.png)
     
 
 ### 3.6 링크 태그 (Anchor)
@@ -189,7 +189,7 @@ HTML 태그는 매우 많아서 굳이 다 외울 필요는 없어요😎
 
 - 결과
     
-    ![image.png](img/image9.png)
+    ![image.png](imgs/image9.png)
     
 
 ### 3.7 테이블 태그 (Table)
@@ -217,7 +217,7 @@ HTML 태그는 매우 많아서 굳이 다 외울 필요는 없어요😎
 
 - 결과
     
-    ![image.png](img/image10.png)
+    ![image.png](imgs/image10.png)
     
 
 ---
@@ -232,7 +232,7 @@ HTML 태그는 매우 많아서 굳이 다 외울 필요는 없어요😎
 
 [시맨틱 태그란? - 태그 요소의 종류와 이점](https://seo.tbwakorea.com/blog/what-is-semantic-tag/)
 
-![image.png](img/image11.png)
+![image.png](imgs/image11.png)
 
 | 태그 | 설명 |
 | --- | --- |
@@ -283,7 +283,7 @@ HTML 태그는 매우 많아서 굳이 다 외울 필요는 없어요😎
 
 - 결과
     
-    ![image.png](img/image12.png)
+    ![image.png](imgs/image12.png)
     
 
 ## 6. <form> 태그
