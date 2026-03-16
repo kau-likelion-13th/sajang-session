@@ -224,7 +224,7 @@ h1 {
 </html>
 ```
 
-![image.png](attachment:1530ef01-1a12-48db-b07a-33c22c7feba8:image.png)
+![image.png](imgs/image13.png)
 
 ### **💡스타일 적용 가이드(힌트!)**
 
@@ -329,7 +329,7 @@ text-align: center;
 
 - **가로정렬임을 기억하면 쉽다**
 
-![Untitled](attachment:8026bfd8-0183-4f54-9777-b741ffd677c6:Untitled.png)
+![image.png](imgs/image14.png)
 
 → 보통 이렇게 `flex` 속성을 사용해서 컨테이너로 묶고, 각각의 item에 개별로 속성을 적용할 수 있다.
 
@@ -339,11 +339,11 @@ text-align: center;
 - 기본 설정은 row
 - 저는 column방향으로 정렬할 때 자주 사용합니다
 
-![Untitled](attachment:4675d415-85ca-4f76-b1d2-23ebef7a61f3:Untitled.png)
+![image.png](imgs/image15.png)
 
 ### justify 정렬과 align 정렬
 
-![Untitled](attachment:c20c0351-fc5c-46a3-863e-77209d6d1006:Untitled.png)
+![image.png](imgs/image16.png)
 
 ### **justify-content : 메인 축 방향 정렬**
 
@@ -355,15 +355,15 @@ text-align: center;
 }
 ```
 
-![Untitled](attachment:a0bde6ba-c9a4-449e-be5b-f6d6f3ba7dae:Untitled.png)
+![image.png](imgs/image17-1.png)
 
-![Untitled](attachment:113b5151-0ab2-4a4f-8253-399e0ada4d65:Untitled.png)
+![image.png](imgs/image17-2.png)
 
-![Untitled](attachment:9fd2eaa4-4c92-40b0-b0e0-8f287b11a718:Untitled.png)
+![image.png](imgs/image17-3.png)
 
 😳참고: space-어쩌구의 배열방식
 
-![Untitled](attachment:ca7de409-36c5-4e37-be9d-70f090918d35:Untitled.png)
+![image.png](imgs/image18.png)
 
 ### align-content: 메인 축에 수직 방향으로 정렬
 
@@ -376,25 +376,25 @@ align-items: center; /*화면상 가운데정렬*/
 align-items: baseline; /*텍스트의 베이스라인 기준으로 정렬*/}
 ```
 
-![stretch](attachment:28e27d5c-d589-41f5-8e4d-487b06a16a27:Untitled.png)
+![image.png](imgs/image19-1.png)
 
 stretch
 
-![flex-start](attachment:b05f4f6e-2504-45a3-b1d9-60d9d6270ab2:Untitled.png)
+![image.png](imgs/image19-2.png)
 
 flex-start
 
-![center](attachment:f759e731-6b73-4c33-993c-f75fdff0ef92:Untitled.png)
+![image.png](imgs/image19-3.png)
 
 center
 
-![baseline](attachment:785a70c8-7c07-467a-94f3-50fb6b11e2c6:Untitled.png)
+![image.png](imgs/image19-4.png)
 
 baseline
 
 ### 여백 : padding과 margin
 
-![Untitled](attachment:9115ff8f-7a1e-41c0-9ea1-0551040028e6:Untitled.png)
+![image.png](imgs/image20.png)
 
 border를 경계로 나뉘며 `margin`은 바깥쪽 여백, `padding`은 안쪽여백을 의미합니다
 
