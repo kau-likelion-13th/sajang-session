@@ -31,14 +31,14 @@
 ### 🎨 Frontend Session  
 사용자와 직접 상호작용하는 웹 화면을 구현하는 기술을 학습합니다.  
 
-👉 **[HTML/CSS/JS 세션 자세히 보기](frontend/1-html-css-js.md)**  
+👉 **[HTML/CSS/JS 세션 자세히 보기](frontend/1-html-css-js-session.md)**  
 
 ---
 
 ### ⚙️ Backend Session  
 서버, 데이터 처리, API 설계 등 서비스의 핵심 로직을 구현하는 기술을 학습합니다.  
 
-👉 **[Java 기본 문법 세션 자세히 보기](backend/java.md)**  
+👉 **[Java 기본 문법 세션 자세히 보기](backend/1-java-session.md)**  
 
 ---
 
