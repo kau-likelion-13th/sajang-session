@@ -9,17 +9,17 @@
 
 **HTML (HyperText Markup Language) -** 웹페이지의 **뼈대(구조)**를 담당하는 언어
 
-→ [HTML](frontend/1.1. html.md)
+→ [HTML](html.md)
 
 ---
 
 **CSS (Cascading Style Sheets) -** 웹페이지의 **디자인(색상, 레이아웃, 폰트 등)**을 담당하는 언어
 
-→ [CSS](1.2. css.md)
+→ [CSS](css.md)
 
 ---
 
 **JavaScript -** 웹페이지의 **동작(인터랙션, 애니메이션, 동적 기능)**을 담당하는 언어
 
-→ [JavaScript](1.3. js.md)
+→ [JavaScript](js.md)
 
