@@ -17,28 +17,28 @@
 ### 🧭 Git Session  
 협업을 위한 버전 관리와 GitHub 사용법을 학습합니다.  
 
-👉 **[Git 세션 자세히 보기](git/git-session.md)**  
+- **[Git](git/git-session.md)**  
 
 ---
 
 ### 🧩 Design Session  
 서비스 기획 및 UI/UX 설계, Figma 기반 디자인 프로세스를 학습합니다.  
 
-👉 **[Design 세션 자세히 보기](design/figma-session.md)**  
+- **[Figma](design/figma-session.md)**  
 
 ---
 
 ### 🎨 Frontend Session  
 사용자와 직접 상호작용하는 웹 화면을 구현하는 기술을 학습합니다.  
 
-👉 **[HTML/CSS/JS 세션 자세히 보기](frontend/1-html-css-js-session.md)**  
+- **[HTML/CSS/JS](frontend/1-html-css-js-session.md)**  
 
 ---
 
 ### ⚙️ Backend Session  
 서버, 데이터 처리, API 설계 등 서비스의 핵심 로직을 구현하는 기술을 학습합니다.  
 
-👉 **[Java 기본 문법 세션 자세히 보기](backend/1-java-session.md)**  
+- **[Java 기본 문법](backend/1-java-session.md)**  
 
 ---
 
