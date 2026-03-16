@@ -1,4 +1,4 @@
-![image.png](imgs/image.png)
+![image.png](imgs/image1.png)
 
 ### **📌 HTML, CSS, JavaScript는 웹 개발의 필수 요소!**
 
