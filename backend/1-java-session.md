@@ -28,14 +28,14 @@
 - 윈도우 버전
 - 시스템 속성 > 환경변수 > 시스템변수 >Path 선택 → 편집 버튼
     
-    ![image.png](attachment:a4bb25a3-17e3-4ca0-8788-7b0935cbc812:image.png)
+    ![image.png](imgs/image1.png)
     
     - 새로 만들기를 클릭하고 MySQL의 경로를 붙여 넣으면 됩니다.
     경로를 따로 지정하지 않았다면 대부분
     C:\Program Files\MySQL\MySQL Server 8.0\bin
     위의 경로일 것입니다.
         
-        ![image.png](attachment:128daeed-918c-467d-8521-95d60d65b6e7:image.png)
+        ![image.png](imgs/image2.png)
         
         위 사진에는 MySQL shell 8.0\bin으로 되어있는데, 일반적으로 MySQL Server 8.0\bin으로 하길래
         이에 맞춰서 진행해주세요 🙂
@@ -44,7 +44,7 @@
     cmd 혹은 명령 프롬프트 검색 후 콘솔 창에 mysql -u root -p 작성 후 MySQL 설치할 때 만든
     비밀번호를 입력해보세요!
         
-        ![image.png](attachment:a9ec8297-087c-4991-a196-7032fb419bbc:image.png)
+        ![image.png](imgs/image3.png)
         
     
 
@@ -52,7 +52,7 @@
     
     [[MySQL] MySQL 환경 변수 설정하기 (Window/Mac)](https://dev-ku.tistory.com/175)
     
-    ![스크린샷 2025-05-22 오전 12.12.06.png](attachment:6c5a4e4a-14b6-4c8c-a445-eac1c8f23b35:스크린샷_2025-05-22_오전_12.12.06.png)
+    ![스크린샷 2025-05-22 오전 12.12.06.png](imgs/image4.png)
     
 - 터미널 실행 > sudo nano /etc/paths 명령어 실행
 - 기본적으로 있는 명령어
@@ -67,7 +67,7 @@
     
 - 위의 명령어 아래에 환경 변수 추가하기
     
-    ![스크린샷 2025-05-22 오전 12.14.37.png](attachment:9bcd37e4-87e0-4534-bd34-9f36a695a5e9:스크린샷_2025-05-22_오전_12.14.37.png)
+    ![스크린샷 2025-05-22 오전 12.14.37.png](imgs/image5.png)
     
 - 터미널 종료 후 재실행 > mysql -v 입력 > 환경 변수 추가 확인
 - 터미널로 MySQL 실행해보기
@@ -76,7 +76,7 @@
     mysql -u root -p
     ```
     
-    ![image.png](attachment:8ed86dec-8f54-4ef5-9682-12c4211d7fdc:image.png)
+    ![image.png](imgs/image6.png)
     
 
 ```
@@ -129,7 +129,7 @@
 - 샘플 코드 추가 (체크)
 - 생성
 
-![image.png](attachment:9107646b-0180-4a23-ac5d-b755e628c05d:image.png)
+![image.png](imgs/image7.png)
 
 ---
 
