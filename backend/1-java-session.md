@@ -147,7 +147,7 @@ public class Main {
 
 - 수행 결과
     
-    ![image.png](attachment:903ff1ad-bb21-4a60-98f9-3620442e9a2a:image.png)
+    ![image.png](imgs/image8.png)
     
 - 맨 위 `public class Main` : **설계도** 하나를 만드는 선언입니다. 파일 이름(`Main.java`)과 클래스 이름이 꼭 같아야 합니다. (정말 중요합니다, 파일 이름과 일치하지 않을 경우에 동작을 하지 않습니다!!)
 - `public static void main` : 자바가 “앱을 어디서부터 돌릴까?” 할 때 제일 먼저 찾는 입구.
