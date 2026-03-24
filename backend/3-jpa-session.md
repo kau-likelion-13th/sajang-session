@@ -325,7 +325,7 @@ GRANT ALL PRIVILEGES ON sajang_db.* TO 'sajang_user'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-![image.png](imgs/image28.png)
+![image.png](imgs/image27.png)
 
 > 확인용 명령
 > 
@@ -350,7 +350,7 @@ FLUSH PRIVILEGES;
 2. Host `localhost`, Port `3306`, DB `sajang_db`
 3. User `sajang_user` / PW `sajang_password` → **Test Connection** ✅
 
-![image.png](imgs/image29.png)
+![image.png](imgs/image28.png)
 
 ---
 
