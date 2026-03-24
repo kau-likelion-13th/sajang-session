@@ -37,7 +37,8 @@
 ### ⚙️ Backend Session  
 Java 기초 문법부터, ERD 설계, API 설계 등 서비스의 핵심 로직을 구현하는 기술을 학습합니다.  
 
-- **[Java 기본 문법](backend/1-java-session.md)**  
+- **[Java 기본 문법](backend/1-java-session.md)**
+- **[ERD 설계](backend/2-erd-session.md)**
 
 ---
 
