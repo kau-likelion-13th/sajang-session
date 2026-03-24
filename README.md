@@ -31,7 +31,8 @@
 ### 🎨 Frontend Session  
 사용자와 직접 상호작용하는 웹 화면을 구현하는 기술을 학습합니다.  
 
-- **[HTML/CSS/JS](frontend/1-html-css-js-session.md)**  
+- **[HTML/CSS/JS](frontend/1-html-css-js-session.md)**
+- **[메인 화면 만들기](frontend/2-main-page-session.md)**
 
 ---
 
