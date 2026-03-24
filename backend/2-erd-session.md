@@ -183,9 +183,7 @@ ERD는 크게 **개체, 속성, 관계**로 이루어져 있어요!
         
         ![KakaoTalk_20250213_182454668_03.jpg](imgs/image16.png)
         
-
-<aside>
-💡
+<br>
 
 ![image.png](imgs/image17.png)
 
@@ -199,7 +197,7 @@ https://goodteacher.tistory.com/466
 
 ![image.png](imgs/image18.png)
 
-</aside>
+<br>
 
 - **관계의 참여도 (Optionality)**
 : 어떤 개체가 다른 개체와의 관계에 **반드시 참여해야 하는지** 여부를 나타냄
@@ -218,12 +216,7 @@ https://goodteacher.tistory.com/466
     
     →  ERD에서는 | 로 표현합니다.
     
-    <aside>
-    💡
-    
-    ‘|’ 는 참여 제약, 수량 제약 두 가지 의미로 사용됩니다!
-    
-    </aside>
+    💡 ‘|’ 는 참여 제약, 수량 제약 두 가지 의미로 사용됩니다!
     
     ![image.png](imgs/image19.png)
     
