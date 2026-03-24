@@ -34,7 +34,7 @@
 - **[HTML/CSS/JS](frontend/1-html-css-js-session.md)**
 - **[메인 화면 구현하기](frontend/2-main-page-session.md)**
 - **[마이 페이지 구현하기](frontend/3-mypage-session.md)**
-- **[상품 페이지 및 결제 창 구현하기](frontend/4-product-session.md)**
+- **[상품 페이지 및 결제 창 구현하기](frontend/4-product-page-session.md)**
 
 ---
 
