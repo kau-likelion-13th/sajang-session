@@ -19,7 +19,7 @@
 
 **Entity Relationship Diagram** 으로 데이터베이스 설계에서 **테이블 간의 관계**를 시각적으로 표현하는 그림
 
-![작년 아기사자 시절 과제로 낸^^. 학습에 참고하지 마시길..ㅋㅋ..](attachment:c51f1d76-b27d-47fa-9579-a7fc41c04102:스크린샷_2025-02-12_173933.png)
+![작년 아기사자 시절 과제로 낸^^. 학습에 참고하지 마시길..ㅋㅋ..](imgs/image9.png)
 
 작년 아기사자 시절 과제로 낸^^. 학습에 참고하지 마시길..ㅋㅋ..
 
@@ -41,7 +41,7 @@ ERD는 크게 **개체, 속성, 관계**로 이루어져 있어요!
 - ex) 사람… 물체… 개념…
 - 데이터베이스에서 각 개체는 테이블로 표현됨
 
-![KakaoTalk_20250212_152359831.jpg](attachment:e18dacdd-ab1b-463c-99b6-ef5ae2a847ea:KakaoTalk_20250212_152359831.jpg)
+![KakaoTalk_20250212_152359831.jpg](imgs/image10.jpg)
 
 ---
 
@@ -49,7 +49,7 @@ ERD는 크게 **개체, 속성, 관계**로 이루어져 있어요!
 
 - 테이블에 저장되는 데이터의 속성을 나타냄
 
-![KakaoTalk_20250213_182454668.jpg](attachment:adc934f6-e4a9-49db-b1ad-9cc8ba974807:KakaoTalk_20250213_182454668.jpg)
+![KakaoTalk_20250213_182454668.jpg](imgs/image11.jpg)
 
 **🧐 PK(Primary Key) 란?**
 
@@ -75,7 +75,7 @@ ERD는 크게 **개체, 속성, 관계**로 이루어져 있어요!
 - 1:N 관계
 - M:N 관계
 
-![KakaoTalk_20250213_182454668_04.jpg](attachment:62d79309-032f-4ad1-9427-bde3d519a88a:c812f968-4f4c-44c0-8c87-4a78bceadba3.png)
+![KakaoTalk_20250213_182454668_04.jpg](imgs/image12.png)
 
 ✔ **학생과 학과의 관계를 생각해봅시다.**
 
@@ -117,7 +117,7 @@ ERD는 크게 **개체, 속성, 관계**로 이루어져 있어요!
 
 **만약 반대로 학과 테이블에서 학생 PK를 FK로 가진다면..???**
 
-![스크린샷 2025-02-12 163613.png](attachment:b1bb8cf1-b1cd-4703-97fd-bac8d643ffee:스크린샷_2025-02-12_163613.png)
+![스크린샷 2025-02-12 163613.png](imgs/image13.png)
 
 - **❌ 학과 테이블이 학생 개수만큼 늘어나야 함**
     
@@ -172,22 +172,22 @@ ERD는 크게 **개체, 속성, 관계**로 이루어져 있어요!
 :** 테이블간의 수적 관계를 명시하는 표현
     - **1:1 관계**
         
-        ![KakaoTalk_20250213_182454668_01.jpg](attachment:9141e15c-df21-46fe-919a-287d1890bf94:33c599db-134b-4b36-b911-b5d7d4a90868.png)
+        ![KakaoTalk_20250213_182454668_01.jpg](imgs/image14.png)
         
     
     - **1:N 관계**
         
-        ![KakaoTalk_20250213_182454668_02.jpg](attachment:af9c5992-5fa8-4a25-bdf6-2068d0e99886:4f307580-c862-47be-b7ee-e3f661ad2e64.png)
+        ![KakaoTalk_20250213_182454668_02.jpg](imgs/image15.png)
         
     - **N:M 관계**
         
-        ![KakaoTalk_20250213_182454668_03.jpg](attachment:811aad00-2457-43e6-b00c-8d24e40ef905:5d95784e-e2db-403d-950e-a17a13dd13d1.png)
+        ![KakaoTalk_20250213_182454668_03.jpg](imgs/image16.png)
         
 
 <aside>
 💡
 
-![image.png](attachment:03989ec7-eb90-41fd-8d25-0b03fc6e9f31:image.png)
+![image.png](imgs/image17.png)
 
 데이터 모델링에서는 **N:M 관계를 완성되지 않은 모델**이라고 간주합니다. 
 
@@ -197,7 +197,7 @@ https://goodteacher.tistory.com/466
 
 → 그래서 중간 테이블을 만들어 두 엔티티의 관계를 **1:N, N:1**로 조정하는 작업을 해줍니다.
 
-![image.png](attachment:c62f26bc-2f2c-4a36-8349-d7071acd0792:image.png)
+![image.png](imgs/image18.png)
 
 </aside>
 
@@ -225,7 +225,7 @@ https://goodteacher.tistory.com/466
     
     </aside>
     
-    ![image.png](attachment:f6b18929-651a-4323-b9a3-4d5b93b3c249:image.png)
+    ![image.png](imgs/image19.png)
     
 - **식별자/비식별자 관계**
     - 식별자 관계
@@ -233,13 +233,13 @@ https://goodteacher.tistory.com/466
         - ERD에서 실선으로 표현됨.
         - ex) 주문 - 주문상세 에서는 주문 테이블의 id(PK)를 주문상세 테이블의 PK로도 사용할 수 있음.
             
-            ![image.png](attachment:0263ef67-0c87-4e38-a694-b850625aed56:image.png)
+            ![image.png](imgs/image20.png)
             
     - 비식별자 관계
         - 부모 테이블의 기본 키(PK)를 자식 테이블이 가지고 있지만 이를 기본 키(PK)로 사용하지 않을 때 사용 → **FK로만 존재**
         - ERD에서 점선으로 표현됨.
             
-            ![image.png](attachment:cdd301c4-df9c-4863-a935-b59766b47d91:image.png)
+            ![image.png](imgs/image21.png)
             
 
 ---
@@ -248,7 +248,7 @@ https://goodteacher.tistory.com/466
 
 주소창에 [erdcloud.com](http://erdcloud.com) 검색 🔍
 
-![스크린샷 2025-02-20 234910.png](attachment:05b84558-6acf-4e65-8d56-8581ea79cea5:스크린샷_2025-02-20_234910.png)
+![스크린샷 2025-02-20 234910.png](imgs/image22.png)
 
 1. 네 번째 아이콘을 눌러 엔티티 생성
 2. 노란색 네모🟨를 눌러 PK 추가
