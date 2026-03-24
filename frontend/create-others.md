@@ -33,4 +33,4 @@
 
 | <img src="imgs/image61.png" width="250"> | <img src="imgs/image62.png" width="250"> |
 |---|---|
-| padding: div **안쪽 여백** | margin: div **바깥쪽 여백** |
+| - padding: div **안쪽 여백** | - margin: div **바깥쪽 여백** |
