@@ -1,6 +1,6 @@
 ![image.png](imgs/image63.png)
 
-### 1. 메뉴 컴포넌트 만들기
+## 1. 메뉴 컴포넌트 만들기
 
 ```jsx
 import React from "react";
@@ -78,7 +78,7 @@ export default Menu;
         ```
         
 
-### 2. 이미지, 글자 삽입
+## 2. 이미지, 글자 삽입
 
 ```html
 import React from "react";
@@ -217,7 +217,7 @@ export default Menu;
     ![image.png](imgs/image66.png)
     
 
-### 3. 페이지 이동시키기
+## 3. 페이지 이동시키기
 
 ```jsx
 import React from "react";
