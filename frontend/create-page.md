@@ -1,6 +1,6 @@
 ## 1. 🏠 Home.js 생성
 
-![image.png](attachment:4e8939a9-4823-4e79-96ee-4543f4329202:image.png)
+![image.png](imgs/image32.png)
 
 - `/pages` 폴더 아래에서 각 페이지들의 소스코드를 관리할 수 있습니다.
 - `pages` 폴더 아래에 **`Home` 폴더를 만들어주세요.**
@@ -51,7 +51,7 @@ export default Home;
 
 ## 2. 🚑 App.js 수정
 
-![image.png](attachment:57b10ef5-bfb5-4884-bb87-0a8d29e4bcbe:image.png)
+![image.png](imgs/image33.png)
 
 ```
 import React from 'react';
@@ -83,7 +83,7 @@ export default App;
 
 ## 3. 🗂️ index.js
 
-![image.png](attachment:b43c5434-0e91-47cc-b5e9-f5237970e739:image.png)
+![image.png](imgs/image34.png)
 
 ```jsx
 import React from 'react';
@@ -110,12 +110,12 @@ root.render(
     - reportWebVitals는 웹페이지 성능을 측정하는 용도이지만, 지금은 사용하지 않기 때문에 주석처리해주세요!
     - 이런 에러 화면이 뜬다면 꼭 주석처리 혹은 지워주세요!!
         
-        ![image.png](attachment:21eadd5f-4b1e-4ceb-8e75-1157c1044e82:image.png)
+        ![image.png](imgs/image35.png)
         
 
 ## 4. 🌳 index.html
 
-![image.png](attachment:4c303c8c-8cd9-4a75-af51-c4745c55a175:image.png)
+![image.png](imgs/image36.png)
 
 ```html
 <!DOCTYPE html>
@@ -139,7 +139,7 @@ root.render(
 
 - `npm start` 명령어를 통해 [`localhost:3000`](http://localhost:3000) 에 접속하거나, 이미 실행중이라면 방금 수정된 소스코드가 바로 적용되어 있으니 확인해봅니다.
 
-![image.png](attachment:6b79952b-6d67-407d-a6cf-d26139701e9e:4e7b6b99-0f51-407a-abf0-1e18c2b3ee4e.png)
+![image.png](imgs/image37.png)
 
 ## 6. 🎯 요약
 
@@ -168,10 +168,10 @@ root.render(
 
 - 정답
     
-    ![image.png](attachment:6bf41494-73d3-4927-81d4-5ce711cc1e66:image.png)
+    ![image.png](imgs/image38.png)
     
-    ![image.png](attachment:51187752-5dfc-48bc-a0a6-72ce8ba34044:image.png)
+    ![image.png](imgs/image39.png)
     
-    ![image.png](attachment:332282ec-1f20-40be-a7c3-de601f28f9bf:image.png)
+    ![image.png](imgs/image40.png)
     
-    ![image.png](attachment:c456e430-df2b-4436-b2f8-763324ef6afc:image.png)
+    ![image.png](imgs/image41.png)
