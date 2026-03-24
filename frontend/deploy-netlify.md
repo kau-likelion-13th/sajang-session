@@ -15,17 +15,17 @@
 
 ![image.png](imgs/image44.png)
 
-1. GitHub 계정 연동 
+3. GitHub 계정 연동 
 
 ![image.png](imgs/image45.png)
 
-1. 원하는 레포 선택 (React 프로젝트 있는 레포)
+4. 원하는 레포 선택 (React 프로젝트 있는 레포)
 
 ![image.png](imgs/image46.png)
 
 ![image.png](imgs/image47.png)
 
-1. 설정 입력
+5. 설정 입력
 
 ![image.png](imgs/image48.png)
 
@@ -56,22 +56,22 @@ https://likelionshop.netlify.app/
 /*    /index.html   200
 ```
 
-1. 깃허브 푸시
+2. 깃허브 푸시
 
 ![image.png](imgs/image50.png)
 
-1. Netify에서 Deploy > Deploy settings
+3. Netify에서 Deploy > Deploy settings
 
 ![image.png](imgs/image51.png)
 
-1. Build settings에서 public 폴더 상위 폴더 경로로 작성(이 부분 모르겠으면 이사장에게 질문) 후 build command도 수정
+4. Build settings에서 public 폴더 상위 폴더 경로로 작성(이 부분 모르겠으면 이사장에게 질문) 후 build command도 수정
 
 ![image.png](imgs/image52.png)
 
-1. Deploy에서 가장 최신 것 선택
+5. Deploy에서 가장 최신 것 선택
 
 ![image.png](imgs/image53.png)
 
-1. Options > Clear cache~ 클릭해서 재배포 후 Open proudction deploy 민트색 버튼 누르면 끝!
+6. Options > Clear cache~ 클릭해서 재배포 후 Open proudction deploy 민트색 버튼 누르면 끝!
 
 ![image.png](imgs/image54.png)
