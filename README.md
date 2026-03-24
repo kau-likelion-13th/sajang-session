@@ -14,6 +14,10 @@
 
 ---
 
+### 2025학년도 1학기
+
+---
+
 ### 🧭 Git Session  
 협업을 위한 버전 관리와 GitHub 사용법을 학습합니다.  
 
@@ -39,7 +43,28 @@
 ---
 
 ### ⚙️ Backend Session  
-서버, 데이터 처리, API 설계 등 서비스의 핵심 로직을 구현하는 기술을 학습합니다.  
+Java 기초 문법부터, ERD 설계, API 설계 등 서비스의 핵심 로직을 구현하는 기술을 학습합니다.  
+
+- **[Java 기본 문법](backend/1-java-session.md)**  
+
+---
+
+### 2025학년도 2학기
+
+---
+
+### 🎨 Frontend Session  
+API 연결을 구현하는 기술을 학습합니다.  
+
+- **[HTML/CSS/JS](frontend/1-html-css-js-session.md)**
+- **[메인 화면 구현하기](frontend/2-main-page-session.md)**
+- **[마이 페이지 구현하기](frontend/3-mypage-session.md)**
+- **[상품 페이지 및 결제 창 구현하기](frontend/4-product-page-session.md)**
+
+---
+
+### ⚙️ Backend Session  
+카카오 소셜 로그인 및 배포를 구현하는 기술을 학습합니다.  
 
 - **[Java 기본 문법](backend/1-java-session.md)**  
 
