@@ -22,7 +22,7 @@ npx -v
 cd Desktop
 ```
 
-![image.png](attachment:c4efb14e-af72-46fd-96d9-8a7785eda940:image.png)
+![image.png](imgs/image20.png)
 
 ## 2. 🔎 React 프로젝트 생성하기
 
@@ -31,20 +31,20 @@ cd Desktop
 
 Git 세션에서 이미 Frontend 레포지토리를 만들어놨기 때문에 해당 폴더에서 React 프로젝트를 생성해보겠습니다~!
 
-![image.png](attachment:c187ccf0-11fa-470a-891d-4b33fd0f9a8d:image.png)
+![image.png](imgs/image21.png)
 
-![image.png](attachment:bb66887f-2864-4bd4-9c35-29777a31c2bc:image.png)
+![image.png](imgs/image22.png)
 
 - Git 세션 과제에서 만들었던 폴더로 들어와주세요!
 - 저는 `Jerry-Frontend` 폴더에 들어왔고, `jerry.txt` 파일 1개 있습니다.
 
-![image.png](attachment:15e86f9d-8c8b-48c9-bd73-c3e6645b2bf2:image.png)
+![image.png](imgs/image23.png)
 
 - Git 세션에서는 Git Bash(윈도우), Terminal(맥)에서 명령어를 실행했었죠?
 - **VSCode에서도 Terminal>Git Bash를 사용할 수 있습니다!**
 - 이번 사전 세션 예제에서는 VSCode에서 제공하는 Git Bash를 사용해보겠습니다.
 
-![image.png](attachment:872d89d0-2a3c-4af2-9601-0f71f2f5f98b:image.png)
+![image.png](imgs/image24.png)
 
 ```bash
 # jerry-frontend 폴더 내에 폴더/파일 확인하기
@@ -91,20 +91,20 @@ npm start
         - `my-react-project`는 새로 생성될 프로젝트의 폴더 이름입니다.
         - 즉, 자신이 원하는 이름으로 변경 가능합니다!
     
-    ![image.png](attachment:5d2f2a9e-268e-4025-b33b-a9eb2fc89a43:image.png)
+    ![image.png](imgs/image25.png)
     
     - `npx create-react-app my-react-project` 명령어로 프로젝트를 생성할 수 있습니다.
     - 위 예제는 Desktop(바탕화면)위치에서 프로젝트를 생성하였습니다.
     
-    ![image.png](attachment:be34c4e1-9d97-405a-8da7-9809266e1f61:image.png)
+    ![image.png](imgs/image26.png)
     
     - Desktop위치에서 `dir` 명령어(윈도우) 또는 `ls -al` 명령어(맥)을 입력하면 my-react-project 폴더가 생성된 것을 확인할 수 있습니다.
     
-    ![image.png](attachment:c187ccf0-11fa-470a-891d-4b33fd0f9a8d:image.png)
+    ![image.png](imgs/image27.png)
     
     - **Visual Studio Code**에 들어와서 **Open Folder**로 자신의 Desktop(바탕화면)에 생성된 `my-react-project` 를 선택합니다.
     
-    ![image.png](attachment:7f0ffb38-3955-44b5-b85d-d81e45c08edb:image.png)
+    ![image.png](imgs/image28.png)
     
     - 프로젝트 생성이 완료되었습니다.
     
@@ -147,7 +147,7 @@ npm start
 
 ## 3. 🚀 프로젝트 실행하기
 
-![image.png](attachment:04f0383e-5794-4b4b-b2b5-f7d86a222ba2:image.png)
+![image.png](imgs/image29.png)
 
 - `localhost:3000` 에서 다음과 같은 페이지가 나오면 생성한 프로젝트가 성공적으로 실행된 것입니다.
 - `npm start` 후에, 자동으로 크롬 새 창이 생기면서 보이게 됩니다.
@@ -176,11 +176,11 @@ npm start
 - 기본적인 react 폴더 구조는 이렇게 구성되어 있습니다.
 - `public` 폴더에는 **정적 파일**이 들어가고, `src` 폴더에는 **소스코드**가 들어갑니다.
 
-![image.png](attachment:7f69058a-4a83-4db8-8084-60f520461c28:image.png)
+![image.png](imgs/image30.png)
 
 - 필요없는 파일은 삭제해줍니다.
 
-![image.png](attachment:f556c016-fb24-47f6-ad68-d47195decd57:image.png)
+![image.png](imgs/image31.png)
 
 - `/src` 폴더 밑에 `/component` , `/pages` , `/styles` 폴더를 생성해줍니다.
 - 위 사진처럼 필요없는 파일은 삭제 및 폴더 생성을 해주세요!
