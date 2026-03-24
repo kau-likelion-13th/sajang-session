@@ -394,7 +394,7 @@ baseline
 
 ### 여백 : padding과 margin
 
-![image.png](imgs/image20.png)
+![image.png](imgs/image19-5.png)
 
 border를 경계로 나뉘며 `margin`은 바깥쪽 여백, `padding`은 안쪽여백을 의미합니다
 
