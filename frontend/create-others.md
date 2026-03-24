@@ -1,6 +1,7 @@
 ### 목표!
 
 ![메인화면2.png](imgs/image60.png)
+
 <br>
 
 [✨메뉴](create-menu.md)
