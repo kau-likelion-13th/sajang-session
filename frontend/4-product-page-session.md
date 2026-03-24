@@ -39,6 +39,8 @@
 
 #### 배너는 각 상품 페이지 상단에 위치하며, 배경 이미지와 페이지 타이틀을 포함합니다.
 
+<br>
+
 **Banner.js**
 
 이 컴포넌트는 페이지 제목과 배경 이미지를 받아서 화면에 렌더링합니다.
@@ -126,6 +128,8 @@ export default Perfume;
 ### 📍ProductCard 컴포넌트 제작
 
 #### 상품 카드는 상품 목록을 표시하는 데 사용됩니다.
+
+<br>
 
 ![image.png](imgs/image76.png)
 
@@ -303,6 +307,8 @@ export default Perfume;
 
 #### 상품 목록이 많아지면 페이징 버튼을 추가하여 페이지를 이동할 수 있도록 합니다.
 
+<br>
+
 **주요 기능**
 
 - `useState`를 사용하여 현재 페이지(`currentPage`) 상태를 관리합니다.
@@ -401,6 +407,8 @@ import React, { useState } from "react";
 ### 📍결제 창 제작
 
 #### 상품을 클릭하면 결제 창이 나타나도록 구현합니다.
+
+<br>
 
 ![image.png](imgs/image76.png)
 
