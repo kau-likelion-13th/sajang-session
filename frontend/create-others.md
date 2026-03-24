@@ -31,5 +31,7 @@
 - `border-radius`: 모서리 둥글게 둥글게~
 - `margin` / `padding`
 
-| <img src="imgs/image61.png" width="250"><br>padding: div **안쪽 여백** | <img src="imgs/image62.png" width="250"><br>margin: div **바깥쪽 여백** |
+| padding | margin |
 |---|---|
+| <img src="imgs/image61.png" width="250"> | <img src="imgs/image62.png" width="250"> |
+| div **안쪽 여백** | div **바깥쪽 여백** |
