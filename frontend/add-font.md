@@ -2,6 +2,7 @@
 - `.ttf`, `.woff`, `.woff2` 등 웹용 폰트 파일을 준비합니다.
 - 해당 폰트 파일을 **`public/font/`** 폴더에 넣습니다.
 <br>
+
 ## 1. 폰트 파일 준비
 
 ![image.png](imgs/image43.png)
