@@ -162,9 +162,8 @@ root.render(
 
 ## 🦁 미션(5 min) - Mypage, ProductPage도 만들어보자!
 
-# **`Mypage`** 폴더 아래에 **`Mypage.js`**
-
-# **`ProductPage`** 폴더 아래에 **`Perfume.js`, `Diffuser.js`**
+- **`Mypage`** 폴더 아래에 **`Mypage.js`**
+- **`ProductPage`** 폴더 아래에 **`Perfume.js`, `Diffuser.js`**
 
 - 정답
     
