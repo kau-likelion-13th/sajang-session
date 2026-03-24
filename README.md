@@ -23,7 +23,7 @@
 
 - **[Git](git/git-session.md)**  
 
----
+<br>
 
 ### 🧩 Design Session  
 서비스 기획 및 UI/UX 설계, Figma 기반 디자인 프로세스를 학습합니다.  
