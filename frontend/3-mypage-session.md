@@ -40,6 +40,7 @@
     export default 컴포넌트이름;
     ```
     
+<br>
 
 ### 📌 마이 페이지 디자인
 
@@ -49,6 +50,7 @@
     
     ![image.png](imgs/image69.png)
     
+<br>
 
 ### 📍Mypage 페이지 제작
 
@@ -86,6 +88,8 @@ export default Mypage;
 }
 ```
 
+<br>
+
 ### 📍Profile 컴포넌트 제작 (Profile.js)
 
 - 2차 구조화
@@ -96,6 +100,7 @@ export default Mypage;
     
     ![image.png](imgs/image71.png)
     
+<br>
 
 **🚩1단계**
 
@@ -122,6 +127,8 @@ const Profile = () => {
 };
 export default Profile;
 ```
+
+<br>
 
 **🚩2단계**
 
@@ -157,6 +164,8 @@ const Profile = () => {
 };
 export default Profile;
 ```
+
+<br>
 
 **🚩3단계**
 
@@ -201,6 +210,8 @@ export default Profile;
 }
 ```
 
+<br>
+
 **🚩최종단계**
 
 ```jsx
@@ -240,6 +251,8 @@ export default Profile;
 
 ```
 
+<br>
+
 ### 📍Address 컴포넌트 제작 (Address.js)
 
 - 2차 구조화
@@ -250,6 +263,7 @@ export default Profile;
     
     ![image.png](imgs/image73.png)
     
+<br>
 
 **🚩1단계**
 
@@ -278,6 +292,8 @@ const Address = () => {
 };
 export default Address;
 ```
+
+<br>
 
 **🚩2단계**
 
@@ -364,6 +380,8 @@ export default Address;
     cursor: pointer;
 }
 ```
+
+<br>
 
 **🚩 useState란?**
 
@@ -491,6 +509,8 @@ export default Address;
 
 ```
 
+<br>
+
 **🚩최종단계**
 
 ```jsx
@@ -567,12 +587,15 @@ const Address = () => {
 export default Address;
 ```
 
+<br>
+
 ### 📍 History 컴포넌트 제작 (History.js)
 
 - 2차 구조화
     
     ![image.png](imgs/image74.png)
     
+<br>
 
 **🚩1단계**
 
@@ -612,6 +635,8 @@ const History = () => {
 };
 export default History;
 ```
+
+<br>
 
 **🚩1단계**
 
@@ -682,6 +707,8 @@ export default History;
     border: 1px solid #9698A4;
 }
 ```
+
+<br>
 
 **🚩2단계**
 
