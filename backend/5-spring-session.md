@@ -280,4 +280,6 @@ public class OrderService {
     
     Spring Boot에는 **톰캣이 기본적으로 내장**되어 있어, 따로 설치하지 않아도 사용할 수 있어요.
 
+<br>
+
 → [Spring Boot 프로젝트 생성](spring-boot.md)
