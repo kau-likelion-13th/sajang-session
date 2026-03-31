@@ -7,9 +7,11 @@
 
 [**start.spring.io](http://start.spring.io)   👈**
 
-![image.png](attachment:d1a1dc92-2f81-4ab7-abac-2ed82e505289:image.png)
+![image.png](imgs/image30.png)
 
-![image.png](attachment:466fdf4d-e893-48a0-a177-9f8ccfb0cc73:1ed05782-8948-4ebf-bb30-11aa21a10198.png)
+<br>
+
+![image.png](imgs/image31.png)
 
 **Project Metadata**
 
@@ -23,7 +25,7 @@
 - Package name : 패키지 이름
 (자동으로 설정해줌)
 
-![image.png](attachment:6a88d06c-0e12-431b-90db-4195589cfb9e:image.png)
+![image.png](imgs/image32.png)
 
 **Dependencies** 
 
@@ -51,7 +53,7 @@
 
 - +  동적으로 렌더링..?
     
-    ![스크린샷 2025-02-10 124647.png](attachment:1fa8aed8-cad2-4f1d-934b-a07510da56af:스크린샷_2025-02-10_124647.png)
+    ![스크린샷 2025-02-10 124647.png](imgs/image33.png)
     
     먼저 **정적 렌더링**은 단어 의미 그대로 ‘변화가 없는’ 방식입니다. 미리 만들어진 HTML을 그대로 전달하는 방식이라, 항상 같은 내용이 표시돼요.
     
@@ -71,7 +73,7 @@
 
 ---
 
-![스크린샷 2025-02-02 221902.png](attachment:804583d1-f38a-4b09-a337-30a185bb3aee:스크린샷_2025-02-02_221902.png)
+![스크린샷 2025-02-02 221902.png](imgs/image34.png)
 
 **IntelliJ 에 들어가서 → 파일 →  열기**
 
@@ -103,23 +105,23 @@
 
 1. 프로젝트명(이하 shop..) 한 번 눌러서 아래에 코끼리 모양 **build.gradle**에서 아까 넣었던 **dependencies** 애들 있는지 확인
 
-![스크린샷 2025-02-10 115643.png](attachment:79297415-b248-4f9e-8c54-6a7f879138c9:스크린샷_2025-02-10_115643.png)
+![스크린샷 2025-02-10 115643.png](imgs/image35.png)
 
 → 그럴 리는 거의 없지만 호옥시라도 없다면 직접 추가해 줘도 됩니다.
 
 2. **src→main→java→likelion13th.shop→ShopApplication 실행**
 
-![스크린샷 2025-02-10 120532.png](attachment:bc1b3d74-7777-4c2a-8399-8d82dbd74b3c:스크린샷_2025-02-10_120532.png)
+![스크린샷 2025-02-10 120532.png](imgs/image36.png)
 
 - 실행하면 밑에 쭈욱 뜰거에요.
 
-![화면 캡처 2025-02-10 120803.png](attachment:c43ea9d0-58e8-41fc-a5e5-e406feba5527:화면_캡처_2025-02-10_120803.png)
+![화면 캡처 2025-02-10 120803.png](imgs/image37.png)
 
 → 웹 서버가 8080 포트에서 실행되었다는 뜻
 
 - (실행한 상태에서!!) 주소창에 [localhost:8080](http://localhost:8080) 을 쳐줍니다.
 
-![스크린샷 2025-02-10 121829.png](attachment:87720ebd-f131-42dc-a770-12c4d8b61d45:ce626414-3da4-497e-84c8-65b49227849f.png)
+![스크린샷 2025-02-10 121829.png](imgs/image38.png)
 
 아무것도 안 적어주었기 때문에 이런 에러가 뜨는 게 정상입니다!
 
@@ -135,7 +137,7 @@
 - Window는 파일 우클릭 후  Git Bash 열기
 - Mac은 터미널에서…
 
-![스크린샷 2025-02-10 130126.png](attachment:7a9743ed-f6e2-4b13-a998-5921ecd36731:스크린샷_2025-02-10_130126.png)
+![스크린샷 2025-02-10 130126.png](imgs/image39.png)
 
 1. 초기 설정을 해줄게요.
 
@@ -152,7 +154,7 @@ git config --global user.email "GitHub 계정 이메일"
 
 3. 과제로 만들었던 레포지토리를 열어주세요!
 
-![README 추가를 안하면 주소가 안보일 수 있다고 하네요](attachment:fdc3039e-1236-4b1d-bcef-87b86fa4088d:스크린샷_2025-02-10_130837.png)
+![README 추가를 안하면 주소가 안보일 수 있다고 하네요](imgs/image40.png)
 
 README 추가를 안하면 주소가 안보일 수 있다고 하네요
 
