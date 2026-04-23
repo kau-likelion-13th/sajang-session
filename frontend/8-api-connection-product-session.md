@@ -55,12 +55,7 @@ product={{
 
 ---
 
-<aside>
-<img src="/icons/code_orange.svg" alt="/icons/code_orange.svg" width="40px" />
-
 Perfume, Diffuser 페이지에서도 동일한 방식으로 API를 연결하면 됩니다.
-
-</aside>
 
 **→ 과제!**
 
