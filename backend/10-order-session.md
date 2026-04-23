@@ -249,9 +249,9 @@ public class Order extends BaseEntity {
         ```
         
     
-    ![image.png](attachment:42c4f645-1257-42ed-b47c-61a0d71068a7:image.png)
+    ![image.png](imgs/image45.png)
     
-    ![image.png](attachment:50b1fb6f-0e0f-41a2-9c97-7829bb411ea1:image.png)
+    ![image.png](imgs/image46.png)
     
 
 **💡 핵심 포인트**
@@ -487,7 +487,7 @@ public interface OrderRepository extends JpaRepository<Order, Long> {
     - existsById(id) : ID 존재 여부 확인
 - 이 외에도 쿼리 메서드를 자동 생성해주거나 정렬 기능이 내장 되어 있는 등 장점이 많습니다.
 
-![image.png](attachment:bbcd0bb3-3510-4567-860b-fee870b20e96:image.png)
+![image.png](imgs/image47.png)
 
 인터페이스로 클래스 생성한 후  JpaRepository 상속 받기
 
