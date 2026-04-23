@@ -35,7 +35,7 @@ package.json 파일 “private” 아래에 proxy 설정을 추가합니다.
 
 사전적 의미: 대리인
 
-![image.png](attachment:cebbb7f2-c341-4c4d-ac0f-2a9c4b609a9f:image.png)
+![image.png](imgs/image78.png)
 
 프록시는 브라우저가 직접 API 서버와 통신하는 대신, 중간 서버를 거쳐 요청을 전달하는 방식입니다.
 
