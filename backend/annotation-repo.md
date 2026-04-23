@@ -1,164 +1,163 @@
-- 열혈 수강생의 질문에 대한 답
-    
-    ## 🔢 어노테이션은 얼마나 있을까?
-    
-    ### 📊 Spring/JPA 주요 어노테이션 개수
-    
-    - **Spring Framework 핵심**: 약 50-60개
-    - **Spring Boot**: 약 30-40개
-    - **JPA/Hibernate**: 약 40-50개
-    - **Spring Security**: 약 15-20개
-    - **Spring Web**: 약 25-30개
-    
-    **총 대략 200개 이상!이라서제가세션을하면서모든걸다알려드릴수없습니다.**
-    
-    하지만 실무에서 자주 쓰는 건 **30-40개 정도**예요.
-    
-    ### 🎯 Order 코드 기준 실무 필수 어노테이션 (약 25개)
-    
-    ### Entity 관련 (8개)
-    
-    ```java
-    @Entity, @Table, @Id, @GeneratedValue, @Column,
-    @Enumerated, @ManyToOne, @JoinColumn
-    ```
-    
-    ### Lombok (6개)
-    
-    ```java
-    @Getter, @Setter, @NoArgsConstructor, @AllArgsConstructor,
-    @RequiredArgsConstructor, @Builder
-    ```
-    
-    ### Spring Core (5개)
-    
-    ```java
-    @Service, @Repository, @Controller, @RestController, @Component
-    ```
-    
-    ### HTTP 매핑 (4개)
-    
-    ```java
-    @GetMapping, @PostMapping, @PutMapping, @DeleteMapping
-    ```
-    
-    ### 기타 중요한 것들 (7개)
-    
-    ```java
-    @Transactional, @RequestBody, @PathVariable,
-    @AuthenticationPrincipal, @Scheduled, @Valid, @Autowired
-    ```
-    
-    ---
-    
-    ## 🗄️ Repository 메서드는 언제 선언해야 할까?
-    
-    ### 1. **기본 JpaRepository로 충분한 경우 (선언 불필요)**
-    
-    ```java
-    // 이런 상황에서는 추가 메서드 선언 안 해도 됨
-    orderRepository.save(order);           // 저장
-    orderRepository.findById(id);          // ID로 조회
-    orderRepository.findAll();             // 전체 조회
-    orderRepository.delete(order);         // 삭제
-    orderRepository.count();               // 개수 세기
-    ```
-    
-    ### 2. **메서드 선언이 필요한 상황들**
-    
-    ### 🔍 특정 조건으로 조회할 때
-    
-    ```java
-    // Order 코드에서 실제 사용된 예시
+  
+## 🔢 어노테이션은 얼마나 있을까?
+
+### 📊 Spring/JPA 주요 어노테이션 개수
+
+- **Spring Framework 핵심**: 약 50-60개
+- **Spring Boot**: 약 30-40개
+- **JPA/Hibernate**: 약 40-50개
+- **Spring Security**: 약 15-20개
+- **Spring Web**: 약 25-30개
+
+**총 대략 200개 이상!이라서제가세션을하면서모든걸다알려드릴수없습니다.**
+
+하지만 실무에서 자주 쓰는 건 **30-40개 정도**예요.
+
+### 🎯 Order 코드 기준 실무 필수 어노테이션 (약 25개)
+
+### Entity 관련 (8개)
+
+```java
+@Entity, @Table, @Id, @GeneratedValue, @Column,
+@Enumerated, @ManyToOne, @JoinColumn
+```
+
+### Lombok (6개)
+
+```java
+@Getter, @Setter, @NoArgsConstructor, @AllArgsConstructor,
+@RequiredArgsConstructor, @Builder
+```
+
+### Spring Core (5개)
+
+```java
+@Service, @Repository, @Controller, @RestController, @Component
+```
+
+### HTTP 매핑 (4개)
+
+```java
+@GetMapping, @PostMapping, @PutMapping, @DeleteMapping
+```
+
+### 기타 중요한 것들 (7개)
+
+```java
+@Transactional, @RequestBody, @PathVariable,
+@AuthenticationPrincipal, @Scheduled, @Valid, @Autowired
+```
+
+---
+
+## 🗄️ Repository 메서드는 언제 선언해야 할까?
+
+### 1. **기본 JpaRepository로 충분한 경우 (선언 불필요)**
+
+```java
+// 이런 상황에서는 추가 메서드 선언 안 해도 됨
+orderRepository.save(order);           // 저장
+orderRepository.findById(id);          // ID로 조회
+orderRepository.findAll();             // 전체 조회
+orderRepository.delete(order);         // 삭제
+orderRepository.count();               // 개수 세기
+```
+
+### 2. **메서드 선언이 필요한 상황들**
+
+### 🔍 특정 조건으로 조회할 때
+
+```java
+// Order 코드에서 실제 사용된 예시
+List<Order> findByStatusAndCreatedAtBefore(OrderStatus status, LocalDateTime dateTime);
+
+// 이런 상황들에서 필요
+List<Order> findByUser(User user);                    // 특정 사용자 주문
+List<Order> findByStatus(OrderStatus status);         // 특정 상태 주문
+List<Order> findByFinalPriceGreaterThan(int price);   // 특정 금액 이상
+```
+
+### 📈 통계나 집계 데이터가 필요할 때
+
+```java
+@Query("SELECT COUNT(o) FROM Order o WHERE o.status = 'COMPLETE'")
+Long countCompleteOrders();
+
+@Query("SELECT SUM(o.finalPrice) FROM Order o WHERE o.user = :user")
+Long getTotalSpentByUser(@Param("user") User user);
+```
+
+### 🔄 복잡한 조건이나 정렬이 필요할 때
+
+```java
+List<Order> findByUserOrderByCreatedAtDesc(User user);  // 최신순 정렬
+Page<Order> findByStatus(OrderStatus status, Pageable pageable);  // 페이징
+```
+
+### ⚡ 성능 최적화가 필요할 때
+
+```java
+@Query("SELECT o FROM Order o JOIN FETCH o.user JOIN FETCH o.item")
+List<Order> findAllWithUserAndItem();  // N+1 문제 해결
+```
+
+### 3. **실무 판단 기준**
+
+| 상황 | JpaRepository 기본 메서드 | 커스텀 메서드 선언 |
+| --- | --- | --- |
+| 단순 CRUD | ✅ 충분 | ❌ 불필요 |
+| ID로 조회 | ✅ `findById()` | ❌ 불필요 |
+| 특정 필드로 조회 | ❌ 불가능 | ✅ `findByXxx()` |
+| 여러 조건 조회 | ❌ 불가능 | ✅ `findByXxxAndYyy()` |
+| 정렬 필요 | ❌ 불가능 | ✅ `findByXxxOrderByYyy()` |
+| 페이징 필요 | ❌ 불가능 | ✅ `Page<T> findByXxx(Pageable pageable)` |
+| 통계/집계 | ❌ 불가능 | ✅ `@Query` 사용 |
+
+### 4. **Order 시스템에서 실제 추가할 만한 메서드들**
+
+```java
+@Repository
+public interface OrderRepository extends JpaRepository<Order, Long> {
+
+    // 현재 사용 중 (스케줄러용)
     List<Order> findByStatusAndCreatedAtBefore(OrderStatus status, LocalDateTime dateTime);
-    
-    // 이런 상황들에서 필요
-    List<Order> findByUser(User user);                    // 특정 사용자 주문
-    List<Order> findByStatus(OrderStatus status);         // 특정 상태 주문
-    List<Order> findByFinalPriceGreaterThan(int price);   // 특정 금액 이상
-    ```
-    
-    ### 📈 통계나 집계 데이터가 필요할 때
-    
-    ```java
-    @Query("SELECT COUNT(o) FROM Order o WHERE o.status = 'COMPLETE'")
-    Long countCompleteOrders();
-    
-    @Query("SELECT SUM(o.finalPrice) FROM Order o WHERE o.user = :user")
-    Long getTotalSpentByUser(@Param("user") User user);
-    ```
-    
-    ### 🔄 복잡한 조건이나 정렬이 필요할 때
-    
-    ```java
-    List<Order> findByUserOrderByCreatedAtDesc(User user);  // 최신순 정렬
-    Page<Order> findByStatus(OrderStatus status, Pageable pageable);  // 페이징
-    ```
-    
-    ### ⚡ 성능 최적화가 필요할 때
-    
-    ```java
-    @Query("SELECT o FROM Order o JOIN FETCH o.user JOIN FETCH o.item")
-    List<Order> findAllWithUserAndItem();  // N+1 문제 해결
-    ```
-    
-    ### 3. **실무 판단 기준**
-    
-    | 상황 | JpaRepository 기본 메서드 | 커스텀 메서드 선언 |
-    | --- | --- | --- |
-    | 단순 CRUD | ✅ 충분 | ❌ 불필요 |
-    | ID로 조회 | ✅ `findById()` | ❌ 불필요 |
-    | 특정 필드로 조회 | ❌ 불가능 | ✅ `findByXxx()` |
-    | 여러 조건 조회 | ❌ 불가능 | ✅ `findByXxxAndYyy()` |
-    | 정렬 필요 | ❌ 불가능 | ✅ `findByXxxOrderByYyy()` |
-    | 페이징 필요 | ❌ 불가능 | ✅ `Page<T> findByXxx(Pageable pageable)` |
-    | 통계/집계 | ❌ 불가능 | ✅ `@Query` 사용 |
-    
-    ### 4. **Order 시스템에서 실제 추가할 만한 메서드들**
-    
-    ```java
-    @Repository
-    public interface OrderRepository extends JpaRepository<Order, Long> {
-    
-        // 현재 사용 중 (스케줄러용)
-        List<Order> findByStatusAndCreatedAtBefore(OrderStatus status, LocalDateTime dateTime);
-    
-        // 추가로 필요할 수 있는 것들
-        List<Order> findByUser(User user);                              // 사용자별 주문
-        List<Order> findByUserAndStatus(User user, OrderStatus status); // 사용자+상태
-        List<Order> findTop10ByOrderByCreatedAtDesc();                  // 최근 10개 주문
-    
-        @Query("SELECT COUNT(o) FROM Order o WHERE DATE(o.createdAt) = CURRENT_DATE")
-        Long getTodayOrderCount();                                      // 오늘 주문 수
-    
-        @Query("SELECT o.status, COUNT(o) FROM Order o GROUP BY o.status")
-        List<Object[]> getOrderCountByStatus();                         // 상태별 통계
-    }
-    ```
-    
-    ---
-    
-    ## 🚨 핵심 정리
-    
-    ### 어노테이션 관련
-    
-    - **전체**: 200개 이상 존재
-    - **실무 필수**: 30-40개 정도
-    - **Order 코드 기준**: 25개 정도면 충분
-    
-    ### Repository 메서드 선언 시점
-    
-    1. **기본 CRUD** → 선언 불필요 (JpaRepository 기본 제공)
-    2. **특정 조건 조회** → 선언 필요 (`findByXxx`)
-    3. **복잡한 쿼리** → `@Query` 어노테이션 사용
-    4. **성능 최적화** → Fetch Join 등 고급 기법
-    
-    ### 🎯 실무 꿀팁
-    
-    - **처음에는 기본 메서드만 사용**하다가 필요할 때 추가하기
-    - **메서드명 네이밍 규칙**을 잘 지키면 Spring이 자동으로 쿼리 생성
-    - **복잡한 로직은 Service에서**, **단순 데이터 접근은 Repository에서**
-    - **성능이 중요하면 @Query로 직접 최적화**
+
+    // 추가로 필요할 수 있는 것들
+    List<Order> findByUser(User user);                              // 사용자별 주문
+    List<Order> findByUserAndStatus(User user, OrderStatus status); // 사용자+상태
+    List<Order> findTop10ByOrderByCreatedAtDesc();                  // 최근 10개 주문
+
+    @Query("SELECT COUNT(o) FROM Order o WHERE DATE(o.createdAt) = CURRENT_DATE")
+    Long getTodayOrderCount();                                      // 오늘 주문 수
+
+    @Query("SELECT o.status, COUNT(o) FROM Order o GROUP BY o.status")
+    List<Object[]> getOrderCountByStatus();                         // 상태별 통계
+}
+```
+
+---
+
+## 🚨 핵심 정리
+
+### 어노테이션 관련
+
+- **전체**: 200개 이상 존재
+- **실무 필수**: 30-40개 정도
+- **Order 코드 기준**: 25개 정도면 충분
+
+### Repository 메서드 선언 시점
+
+1. **기본 CRUD** → 선언 불필요 (JpaRepository 기본 제공)
+2. **특정 조건 조회** → 선언 필요 (`findByXxx`)
+3. **복잡한 쿼리** → `@Query` 어노테이션 사용
+4. **성능 최적화** → Fetch Join 등 고급 기법
+
+### 🎯 실무 꿀팁
+
+- **처음에는 기본 메서드만 사용**하다가 필요할 때 추가하기
+- **메서드명 네이밍 규칙**을 잘 지키면 Spring이 자동으로 쿼리 생성
+- **복잡한 로직은 Service에서**, **단순 데이터 접근은 Repository에서**
+- **성능이 중요하면 @Query로 직접 최적화**
 
 ## 🏷️ 핵심 어노테이션 정리
 
