@@ -1,10 +1,11 @@
 💡 오늘의 목표: 결체창 API 연결하기
 
-세부 목표:
+- 세부 목표:
+	- 마일리지 GET API 연결
+	- 주문 POST API 연결
+	- 비동기 **`async/await`** 이해하기
 
-- 마일리지 GET API 연결
-- 주문 POST API 연결
-- 비동기 **`async/await`** 이해하기
+---
 
 ### 📌 PayModal.js - Mileage
 
