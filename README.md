@@ -58,6 +58,8 @@ API 연결을 구현하는 기술을 학습합니다.
 - **[API 연결 - 로그인부터!](frontend/6-api-connection-login-session.md)**
 - **[HTTP 복습 & Swagger](frontend/7-swagger-session.md)**
 - **[API 연결 - 상품 페이지](frontend/8-api-connection-product-session.md)**
+- **[API 연결 - 결제 창](frontend/9-api-connection-paymodal-session.md)**
+- 
 
 ### ⚙️ Backend Session  
 카카오 소셜 로그인 및 배포를 구현하는 기술을 학습합니다.  
