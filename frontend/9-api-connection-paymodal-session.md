@@ -1,14 +1,10 @@
-<aside>
-💡
-
-오늘의 목표: 결체창 API 연결하기
+💡 오늘의 목표: 결체창 API 연결하기
 
 세부 목표:
 
 - 마일리지 GET API 연결
 - 주문 POST API 연결
 - 비동기 **`async/await`** 이해하기
-</aside>
 
 ### 📌 PayModal.js - Mileage
 
@@ -53,7 +49,7 @@ const PayModal = ({ product, onClose }) => {
     - 개발자도구 `네트워크` 칸에서 `200 OK` 뜨는지 확인해봅시다!
         - 코드를 무작정 와다다다 넣고 마지막에 테스트하는 것보다 한 단계씩 테스트를 하면서 진행하는 것이 좋습니다 😊
     
-    ![image.png](attachment:2576640f-ad10-4104-b1f7-01c85e41fbc0:image.png)
+    ![image.png](imgs/image84.png)
     
     - **근데 왜 API 요청이 2번 가요?**
         
@@ -89,12 +85,12 @@ const PayModal = ({ product, onClose }) => {
 - 테스트2
     - 분명히 `200 OK`였는데… 개발자도구 `콘솔` 칸에서 `실패` 요청이 뜬다면??
         
-        ![image.png](attachment:9901b968-6562-4925-876f-430191ca1094:image.png)
+        ![image.png](imgs/image85.png)
         
     - 다시 `네트워크` 칸에서 가서 API 응답을 확인하신 다음에.. 필드명이 뭔지 확인해보세요!
         - 스웨거에서 확인해보셔도 됩니다!
         
-        ![image.png](attachment:b73d6a0c-a25a-43c7-b29a-ca7ec2984b84:image.png)
+        ![image.png](imgs/image86.png)
         
         - 여기선 mileage라고 해뒀네요? 그럼 맞춰서 프론트코드를 수정해주세요
         
