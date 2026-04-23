@@ -376,7 +376,7 @@ user.addOrder(order);         *// 한 번의 호출로 양쪽 모두 설정!*
 3. **캐싱**: 동일한 객체 재사용 가능
 4. **다양한 생성 방법**: 상황에 따른 여러 생성 메서드 제공
 
-- [Order.java](http://Order.java) 전체 코드
+- Order.java 전체 코드
     
     ```python
     package likelion13th.shop.domain;
